@@ -7,11 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1BsmdU-hXCkzvLCaAA3cWB6OrhSQUoYhM
 """
 
-pip install gradio
+#pip install gradio
 
-pip install stylecloud
+#pip install stylecloud
 
-pip install --upgrade pillow
+#pip install --upgrade pillow
 
 def create_wordcloud(file, language, icon):
     try:
