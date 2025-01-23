@@ -12,6 +12,11 @@ Original file is located at
 #pip install stylecloud
 
 #pip install --upgrade pillow
+import gradio as gr
+import numpy as np
+from wordcloud import WordCloud
+from PIL import Image
+import os
 
 def create_wordcloud(file, language, icon):
     try:
